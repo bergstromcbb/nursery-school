@@ -24922,12 +24922,12 @@
 	        return React.createElement(
 	            'div',
 	            null,
+	            React.createElement(Nav, null),
 	            React.createElement(
 	                'h1',
 	                null,
 	                'This is the Main Component'
 	            ),
-	            React.createElement(Nav, null),
 	            this.props.children,
 	            ';'
 	        );
@@ -24945,7 +24945,8 @@
 	var React = __webpack_require__(8);
 
 	var _require = __webpack_require__(166),
-	    Link = _require.Link;
+	    Link = _require.Link,
+	    IndexLink = _require.IndexLink;
 
 	var Nav = React.createClass({
 	    displayName: 'Nav',
@@ -24953,31 +24954,100 @@
 	    render: function render() {
 	        return React.createElement(
 	            'div',
-	            null,
+	            { className: 'top-bar' },
 	            React.createElement(
-	                'h2',
-	                null,
-	                'Navigation bar'
+	                'div',
+	                { className: 'top-bar-left' },
+	                React.createElement(
+	                    'ul',
+	                    { className: 'menu' },
+	                    React.createElement(
+	                        'li',
+	                        { className: 'menu-text' },
+	                        'ReactWeatherApp'
+	                    ),
+	                    React.createElement(
+	                        'li',
+	                        null,
+	                        React.createElement(
+	                            IndexLink,
+	                            { to: '/', activeClassName: 'active' },
+	                            'Get Weather'
+	                        )
+	                    ),
+	                    React.createElement(
+	                        'li',
+	                        null,
+	                        React.createElement(
+	                            Link,
+	                            { to: '/about', activeClassName: 'active' },
+	                            'About'
+	                        )
+	                    ),
+	                    React.createElement(
+	                        'li',
+	                        null,
+	                        React.createElement(
+	                            Link,
+	                            { to: '/Example', activeClassName: 'active' },
+	                            'Example'
+	                        )
+	                    )
+	                )
 	            ),
 	            React.createElement(
-	                Link,
-	                { to: '/' },
-	                'Get Weather'
-	            ),
-	            React.createElement(
-	                Link,
-	                { to: '/about' },
-	                'About'
-	            ),
-	            React.createElement(
-	                Link,
-	                { to: '/Example' },
-	                'Example'
+	                'div',
+	                { className: 'top-bar-right' },
+	                React.createElement(
+	                    'form',
+	                    null,
+	                    React.createElement(
+	                        'ul',
+	                        { className: 'menu' },
+	                        React.createElement(
+	                            'li',
+	                            null,
+	                            React.createElement('input', { type: 'search', placeholder: 'please Search' }),
+	                            '  '
+	                        ),
+	                        React.createElement(
+	                            'li',
+	                            null,
+	                            React.createElement('input', { type: 'submit', className: 'button', value: 'GetWeather' }),
+	                            ' '
+	                        )
+	                    )
+	                )
 	            )
 	        );
 	    }
 	});
 	module.exports = Nav;
+
+	var old = React.createElement(
+	    'div',
+	    null,
+	    React.createElement(
+	        'h2',
+	        null,
+	        'Navigation bar'
+	    ),
+	    React.createElement(
+	        Link,
+	        { to: '/' },
+	        'Get Weather'
+	    ),
+	    React.createElement(
+	        Link,
+	        { to: '/about' },
+	        'About'
+	    ),
+	    React.createElement(
+	        Link,
+	        { to: '/Example' },
+	        'Example'
+	    )
+	);
 
 /***/ },
 /* 225 */

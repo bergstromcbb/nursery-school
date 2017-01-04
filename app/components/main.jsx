@@ -7,10 +7,11 @@ var Main = React.createClass({
 
         return (
             <div>
+            <Nav />
                 <h1>
                     This is the Main Component
                     </h1>
-                <Nav />
+                
                 {this.props.children};
             </div>
         )
