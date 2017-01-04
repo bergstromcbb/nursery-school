@@ -24875,6 +24875,7 @@
 	        );
 	    }
 	});
+
 	module.exports = Main;
 
 /***/ },
@@ -26596,7 +26597,7 @@
 	    return React.createElement(
 	        'h3',
 	        null,
-	        'About Component'
+	        'About Page'
 	    );
 	};
 
@@ -26610,17 +26611,13 @@
 
 	var React = __webpack_require__(1);
 
-	var Example = React.createClass({
-	    displayName: 'Example',
-
-	    render: function render() {
-	        return React.createElement(
-	            'p',
-	            null,
-	            'Example Page'
-	        );
-	    }
-	});
+	// var Example = React.createClass({
+	//     render:function(){
+	//         return(
+	//             <p>Example Page</p>
+	//         )
+	//     }
+	// })
 	var Example = function Example(props) {
 	    return React.createElement(
 	        'h3',
