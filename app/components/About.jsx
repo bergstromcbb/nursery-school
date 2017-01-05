@@ -12,7 +12,9 @@ var React = require('react');
 var About = (props)=>{
 
     return(
-        <h3>About Page</h3>
+        <div className = "text-center">
+        <h1>About Page</h1>
+        </div>
     )
 }
 

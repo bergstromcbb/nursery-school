@@ -24929,8 +24929,7 @@
 	                React.createElement(
 	                    'div',
 	                    { className: 'columns medium-6 large-4 small-centered' },
-	                    this.props.children,
-	                    ';'
+	                    this.props.children
 	                )
 	            )
 	        );
@@ -25105,8 +25104,8 @@
 	        function renderMessage() {
 	            if (isLoading) {
 	                return React.createElement(
-	                    'h1',
-	                    null,
+	                    'p',
+	                    { className: 'text-center' },
 	                    'Fetching data..........'
 	                );
 	            } else if (temp && loc) {
@@ -25117,9 +25116,9 @@
 	            'div',
 	            null,
 	            React.createElement(
-	                'h3',
-	                null,
-	                'This is the Weather component'
+	                'h1',
+	                { className: 'text-center' },
+	                'Get Weather'
 	            ),
 	            React.createElement(WeatherForm, { newLoc: this.handleNewLocation }),
 	            renderMessage()
@@ -25156,8 +25155,8 @@
 	            React.createElement("input", { type: "text", ref: "loc" }),
 	            React.createElement(
 	                "button",
-	                null,
-	                "Click it"
+	                { className: "button expanded hollow" },
+	                "Get Weather"
 	            )
 	        );
 	    }
@@ -26710,7 +26709,7 @@
 /* 254 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(8);
 
@@ -26726,9 +26725,13 @@
 	var About = function About(props) {
 
 	    return React.createElement(
-	        'h3',
-	        null,
-	        'About Page'
+	        "div",
+	        { className: "text-center" },
+	        React.createElement(
+	            "h3",
+	            null,
+	            "About Page"
+	        )
 	    );
 	};
 
@@ -26738,9 +26741,12 @@
 /* 255 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(8);
+
+	var _require = __webpack_require__(166),
+	    Link = _require.Link;
 
 	// var Example = React.createClass({
 	//     render:function(){
@@ -26749,11 +26755,35 @@
 	//         )
 	//     }
 	// })
+
+
 	var Example = function Example(props) {
 	    return React.createElement(
-	        'h3',
+	        "div",
 	        null,
-	        'Example Page'
+	        React.createElement(
+	            "h1",
+	            { className: "text-center" },
+	            "Example Page"
+	        ),
+	        React.createElement(
+	            "p",
+	            { className: "text-center" },
+	            "Welcome to the Example page"
+	        ),
+	        React.createElement(
+	            "ol",
+	            null,
+	            React.createElement(
+	                "li",
+	                null,
+	                React.createElement(
+	                    Link,
+	                    { to: "/" },
+	                    "Go To Home Page"
+	                )
+	            )
+	        )
 	    );
 	};
 	module.exports = Example;
