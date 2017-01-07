@@ -25152,7 +25152,7 @@
 	        return React.createElement(
 	            "form",
 	            { onSubmit: this.passLocation },
-	            React.createElement("input", { type: "text", ref: "loc" }),
+	            React.createElement("input", { type: "text", ref: "loc", placeholder: "type your city name to search weather" }),
 	            React.createElement(
 	                "button",
 	                { className: "button expanded hollow" },
@@ -25180,7 +25180,7 @@
 	            { className: "text-center" },
 	            "Its ",
 	            this.props.temp,
-	            " in ",
+	            "C in ",
 	            this.props.loc
 	        );
 	    }
