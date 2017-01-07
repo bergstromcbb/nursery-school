@@ -25167,20 +25167,20 @@
 /* 227 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var React = __webpack_require__(8);
 
 	var WeatherMessage = React.createClass({
-	    displayName: 'WeatherMessage',
+	    displayName: "WeatherMessage",
 
 	    render: function render() {
 	        return React.createElement(
-	            'h1',
-	            null,
-	            'Its ',
+	            "h3",
+	            { className: "text-center" },
+	            "Its ",
 	            this.props.temp,
-	            ' in ',
+	            " in ",
 	            this.props.loc
 	        );
 	    }
