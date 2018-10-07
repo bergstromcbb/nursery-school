@@ -1,0 +1,40 @@
+.detail-location-header {		
+	margin-top: 30px;
+	font-size: 80px;
+}
+
+.i-detail {
+	font-size: 205px;
+	color: #333;
+}
+
+.date-text {
+	position: relative;
+	bottom: 20px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.description-text {
+	font-size: 35px;
+}	
+
+
+// MEDIA QUERIES
+
+// Extra Small Styles
+@media (max-width: 767px) {
+	.detail-location-header {
+		font-size: 40px;
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+
+	.i-detail {
+		font-size: 180px;
+	}
+
+	.description-text {
+		font-size: 28px;
+	}
+}
