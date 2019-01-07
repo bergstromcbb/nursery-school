@@ -1,14 +1,14 @@
 {
-  "main.css": "/weatherApp/static/css/main.2fe7d380.chunk.css",
-  "main.js": "/weatherApp/static/js/main.69834b72.chunk.js",
-  "main.js.map": "/weatherApp/static/js/main.69834b72.chunk.js.map",
-  "static/js/1.20650ca5.chunk.js": "/weatherApp/static/js/1.20650ca5.chunk.js",
-  "static/js/1.20650ca5.chunk.js.map": "/weatherApp/static/js/1.20650ca5.chunk.js.map",
-  "runtime~main.js": "/weatherApp/static/js/runtime~main.0ff3e20d.js",
-  "runtime~main.js.map": "/weatherApp/static/js/runtime~main.0ff3e20d.js.map",
-  "static/media/styles.scss": "/weatherApp/static/media/owfont-regular.e00c269c.eot",
-  "static/css/main.2fe7d380.chunk.css.map": "/weatherApp/static/css/main.2fe7d380.chunk.css.map",
-  "index.html": "/weatherApp/index.html",
-  "precache-manifest.3e77f1c891b6beafdfc0c41c0e708396.js": "/weatherApp/precache-manifest.3e77f1c891b6beafdfc0c41c0e708396.js",
-  "service-worker.js": "/weatherApp/service-worker.js"
+  "main.css": "/nursery-school/static/css/main.5d116324.chunk.css",
+  "main.js": "/nursery-school/static/js/main.f9a7b072.chunk.js",
+  "main.js.map": "/nursery-school/static/js/main.f9a7b072.chunk.js.map",
+  "static/js/1.20650ca5.chunk.js": "/nursery-school/static/js/1.20650ca5.chunk.js",
+  "static/js/1.20650ca5.chunk.js.map": "/nursery-school/static/js/1.20650ca5.chunk.js.map",
+  "runtime~main.js": "/nursery-school/static/js/runtime~main.82897339.js",
+  "runtime~main.js.map": "/nursery-school/static/js/runtime~main.82897339.js.map",
+  "static/media/styles.scss": "/nursery-school/static/media/owfont-regular.e00c269c.eot",
+  "static/css/main.5d116324.chunk.css.map": "/nursery-school/static/css/main.5d116324.chunk.css.map",
+  "index.html": "/nursery-school/index.html",
+  "precache-manifest.a198088936f8004173cbc2cce5902b1b.js": "/nursery-school/precache-manifest.a198088936f8004173cbc2cce5902b1b.js",
+  "service-worker.js": "/nursery-school/service-worker.js"
 }
