@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/nursery-school/static/js/runtime~main.82897339.js"
   },
   {
-    "revision": "f9a7b0723b09f8b2287e",
-    "url": "/nursery-school/static/js/main.f9a7b072.chunk.js"
+    "revision": "9ca67c4553fdc1aa0ea3",
+    "url": "/nursery-school/static/js/main.9ca67c45.chunk.js"
   },
   {
-    "revision": "20650ca5b6d1251d5ab1",
-    "url": "/nursery-school/static/js/1.20650ca5.chunk.js"
+    "revision": "bdb19c4fa1244c9804e7",
+    "url": "/nursery-school/static/js/1.bdb19c4f.chunk.js"
   },
   {
-    "revision": "f9a7b0723b09f8b2287e",
+    "revision": "9ca67c4553fdc1aa0ea3",
     "url": "/nursery-school/static/css/main.5d116324.chunk.css"
   },
   {
-    "revision": "67eab83afedf76f86f478ee88bead88d",
+    "revision": "57459cff7e7cad8ed475b1aabf407897",
     "url": "/nursery-school/index.html"
   }
 ];
